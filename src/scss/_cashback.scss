@@ -1,0 +1,140 @@
+#page-cashback {
+	width: 100%;
+	height: auto;
+	.dateSelect-popup {
+	  	width: 100%;
+	    height: 100%;
+	    background: rgba(51,51,51,.75);
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    z-index: 99;
+	    .dateSelect-wrap{
+	    	width: 78%;
+	    	height: 14.5rem;
+	    	background: #fff;
+	    	margin: 6rem auto 0;
+	    	border-radius: .5rem;
+	    	overflow: hidden;
+	    	.dateSelect-title{
+	    		width: 92%;
+	    		height: 1.8rem;
+	    		margin: auto;
+	  			font-size: .85rem;
+	  			line-height: 1.8rem;
+	  			color: #333;
+	  			letter-spacing: .1rem;
+	    	}
+	    	.dateSelect-svalue{
+	    		width: 92%;
+	    		height: 2.5rem;
+	    		margin: auto;
+	  			font-size: .65rem;
+	  			line-height: 2.5rem;
+	  			color: #999;
+	  			text-align: center;
+	  			letter-spacing: .1rem;
+	    	}
+	    	.dateSelect-body{
+	    		width: 100%;
+	    		height: 7.8rem;
+	    		padding-bottom: 1.3rem;
+	    		.picker{
+	    			width: 100%;
+	    			height: 100%;
+	    			.picker-item{
+	    				font-size: .9rem;
+	    				text-overflow: clip;
+	    				text-align: center;
+	    				padding: 0;
+	    			}
+	    			.picker-selected{
+	    				color: #EE3E54;
+	    				font-size: 1rem;
+	    			}
+	    		}
+	    	}
+	    	.dateSelect-sub{
+	    		width: 100%;
+	    		height: 2.4rem;
+	    		border-top: 1px solid #ccc;
+	    		font-size: 0;
+	    		>button{
+	    			width: 50%;
+	    			height: 100%;
+	    			display: inline-block;
+	    			vertical-align: top;
+	    			background: #fff;
+	    			outline: none;
+	    			font-size: .8rem;
+	    			color: #333;
+	    		}
+	    		.dateSelect-sub-cancel{
+	    			border-right: 1px solid #ccc;
+	    		}
+	    		.dateSelect-sub-confirm{
+	    			color: #30ccff;
+	    		}
+	    	}
+	    }
+	}
+	.select-wrap {
+	  width: 100%;
+	  height: 2.25rem;
+	  padding: .51rem .75rem;
+	  background: #fff;
+	  font-size: 0;
+	  display: flex;
+	  align-items: center;
+	  >* {
+	    /*display: inline-block;*/
+	    /*vertical-align: top;*/
+	    /*height: 100%;*/
+	    font-size: .6rem;
+	  }
+	  span {
+	    width: 10%;
+	    margin-right: 2%;
+	  }
+	  input {
+	    width: 24%;
+	    text-align: center;
+	  }
+	  .dataMiddleLine {
+	    width: 7%;
+	    border-bottom: 1px solid #333;
+	    align-self: center;
+	  }
+	  button {
+	    width: 14%;
+	    margin-left: 2.5%;
+	    border: 1px solid #30ccff;
+	    border-radius: .2rem;
+	    text-align: center;
+	    background: #fff;
+	    padding: .14rem .3rem;
+	  }
+	  .btn-search {
+	    background: #30ccff;
+	    color: #fff;
+	  }
+	}
+	.cashback-title-wrap {
+	  width: 100%;
+	  height: 2rem;
+	  margin-top: .25rem;
+	  display: flex;
+	  background: #fff;
+	  align-items: center;
+	  span {
+	    flex: 1;
+	    font-size: .6rem;
+	    margin-left: .75rem;
+	  }
+	  .allCashback {
+	    text-align: right;
+        margin-right: 1rem;
+        color: #ee3e54;
+	  }
+	}
+}

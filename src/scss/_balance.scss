@@ -1,0 +1,52 @@
+$image_icon_canCash: "asstes/images/icon_canCash.png";
+$image_icon_backCash: "assets/images/icon_backCash.png";
+$image_icon_row: "assets/images/row.png";
+
+$centerList_li_height: 3.5rem;
+$centerList_li_paddingTop: .85rem;
+
+#balance-list {
+  width: 100%;
+  height: auto;
+  li {
+    width: 100%;
+    height: $centerList_li_height;
+    background: #fff;
+    padding: $centerList_li_paddingTop 3%;
+    box-sizing: border-box;
+    font-size: 0;
+    border-bottom: 1px solid #e8e8e8;
+    a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    i{
+      width: 1.6rem;
+      height: 1.6rem;
+      background: url($image_icon_backCash) no-repeat 0 0 / 100% 100%
+    }
+    i.row{
+      width: 1.4rem;
+      height: 1.2rem;
+      background: url($image_icon_row) no-repeat 0 0 / 100% 100%;
+    }
+    >a {
+      width: 100%;
+    }
+    span {
+      display: block;
+      height: 100%;
+      color: #333;
+      font-size: .6rem;
+      text-indent: .5rem;
+    }
+    span.balanceTitle {
+      width: 46%;
+    }
+    span.balanceValue {
+      width: 25%;
+      text-align: right;
+    }
+  }
+}
